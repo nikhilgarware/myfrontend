@@ -1,10 +1,9 @@
-import React from 'react';
-const Greet= props =>{
-    console.log(props)
+import React, { Children } from 'react';
+const Greet= ({name, sub ,children}) =>{
     return (
         <div>
-            <h1>Hello, {props.name} are you intrested in {props.sub} ?</h1>
-            {props.children}
+            <h1 className='secondary'>Hello, {name} are you intrested in {sub} ?</h1>
+            {children}
         </div>
     )
 }

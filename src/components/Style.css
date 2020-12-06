@@ -1,0 +1,18 @@
+.primary{
+    color: aqua;
+}
+.secondary{
+    color: purple;
+}
+.third{
+    color: blue;
+}
+.forth{
+    color: brown;
+}
+.button{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
