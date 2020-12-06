@@ -10,7 +10,9 @@ function App() {
               Greet tag and make changes in the Greet.js file.
               </p>
           </Greet>
-        <Greet name="David" sub="DS"/> 
+        <Greet name="David" sub="DS">
+          <button>Action</button>
+        </Greet> 
         <Greet name="Ruby" sub = "C++"/>
     </div>
   );
