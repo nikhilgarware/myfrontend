@@ -1,5 +1,5 @@
 .primary{
-    color: aqua;
+    color: red;
 }
 .secondary{
     color: purple;
@@ -12,7 +12,8 @@
 }
 .button{
     padding: 15px;
-    color: white;
-    background-color: black;
+    font-style: bold;
+    color: black;
+    background-color: red;
     border-radius: 10px;
 }

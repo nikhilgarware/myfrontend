@@ -6,7 +6,8 @@ import './components/Style.css'
 function App() {
   return (
     <div className="App">
-        <Greet name="Mark" sub="Python">
+        <Greet primary={false} name="Mark" sub="Python" >
+
             <p className='primary'>This is a childeren conponent of Greet. If you want to use this eliminate 
               the Greet Tag and put the Greet closing tag and then after that close the 
               Greet tag and make changes in the Greet.js file.
